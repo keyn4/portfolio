@@ -1,0 +1,30 @@
+.contactDiv{
+    background-color: transparent;
+    height: 45vh;
+    padding-left: 30vh;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contactText{
+    font-family: "Bebas Neue", cursive;
+    font-size: 6.5vh;
+    color: #fff;
+}
+
+.email{
+    color: #fff;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 6vh;
+  font-style: italic;
+}
+
+@media (max-width: 1060px) {
+    .contactDiv{
+        background-color: transparent;
+        height: 60vh;
+        padding-left: 0vh;
+        text-align: center;
+        padding-top: 0px;
+    } 
+}
